@@ -1,20 +1,22 @@
----
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
+# Reproducible Research: Peer Assessment 1
 
 
 ## Loading and preprocessing the data
 [Download Data](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip)
 - Unzip the data file
-```{r}
+
+```r
 echo = TRUE
 unzip("./repdata_data_activity.zip")
 ```
+
+```
+## Warning in unzip("./repdata_data_activity.zip"): erreur 1 lors de
+## l'extraction d'un fichier zip
+```
 - Read the csv file
-```{r}
+
+```r
 library("datasets")
 echo = TRUE
 ```
